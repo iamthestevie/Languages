@@ -14,6 +14,10 @@ int main()
     // expression_2 is used to check for the terminating condition. If this evaluates to false, then the loop is terminated.
     // expression_3 is generally used to update the flags/variables.
 
+    // Goal: takes 2 integers into standard input (command line) a and b where a <= b
+    // outputs the value in english if the value is less than or equal to 9
+    // otherwise it outputs 'even' if the value is even or 'odd' if the value is odd.
+
     int a;
     int b;
     scanf("%d", &a);
