@@ -45,7 +45,7 @@ int main()
 	int *pa = &a, *pb = &b;
 	scanf("%d %d", &a, &b);
 	update(pa, pb);
-	printf("%d\n%d", a, b);
+	printf("%d\n%d\n", a, b);
 
 	return 0;
 }
